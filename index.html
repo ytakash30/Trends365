@@ -75,7 +75,7 @@
         <h2>Featured Products</h2>
         <p>Summer Collection New Modern Desgin</p>
         <div class="pro-conatiner">
-            <div class="pro" id="1">
+            <div class="pro" id="product1">
                 <img src="img/products/f1.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -90,7 +90,7 @@
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
 
-            <div class="pro" id="2">
+            <div class="pro" id="product2">
                 <img src="img/products/f2.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -104,7 +104,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="pro" id="3">
+            <div class="pro" id="product3">
                 <img src="img/products/f3.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -118,7 +118,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="pro" id="4">
+            <div class="pro" id="product4">
                 <img src="img/products/f4.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -132,7 +132,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="pro" id="5">
+            <div class="pro" id="product5">
                 <img src="img/products/f5.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -422,6 +422,15 @@
             <p>© 2024, www.Trends365.com All rights reserved</p>
          </div>
       </footer>
+
+      <script>
+        for (var i = 1; i < 5; i++) {
+            var targetProduct = document.getElementById('product' + i);
+            targetProduct.onclick = function() {
+                window.location.href = 'sproduct.html';
+            };
+        }
+    </script>
 
        <script src="https://kit.fontawesome.com/fcf82d9cdc.js"></script>
         <script src="script.js"></script>
