@@ -982,6 +982,10 @@ Shop product details page  */
     
   }
 
+   #page-header p {
+    font-size: 13.5px;
+}
+
   #blog .blog-box {
     display: flex;
     flex-direction: column;
