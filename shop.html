@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>Trends365</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
         <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
 
     <body>
         <section id="header">
-            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <a href="#"><img src="img/logo.png" class="logo" onclick="window.location.href='index.html';" alt="logo"></a>
             <div>
                 <ul id="nav-item">
                     <li ><a href="index.html">Home</a></li>
@@ -38,7 +38,7 @@
  
         <section id="product1" class="section-p1">
          <div class="pro-conatiner">
-              <div class="pro" id="product1" >  <!-- onclick="window.location.href='sproduct.html';"
+              <div class="pro" id="product1" onclick="window.location.href='sproduct.html';" >  <!-- onclick="window.location.href='sproduct.html';"
                                                          for single product    -->
                  <img src="img/products/f1.jpg" alt="">
                  <div class="des">
@@ -54,7 +54,7 @@
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
  
-             <div class="pro" id="product12">
+             <div class="pro" id="product2" onclick="window.location.href='sproduct.html';">
                  <img src="img/products/f2.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -68,7 +68,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product1">
+             <div class="pro" id="product3" onclick="window.location.href='sproduct.html';">
                  <img src="img/products/f3.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -82,7 +82,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product4">
+             <div class="pro" id="product4" onclick="window.location.href='sproduct.html';">
                  <img src="img/products/f4.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -96,7 +96,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product5">
+             <div class="pro" id="product5" onclick="window.location.href='sproduct.html';">
                  <img src="img/products/f5.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -154,7 +154,7 @@
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
         
-             <div class="pro" id="product1">
+             <div class="pro" id="ssproduct1">
                  <img src="img/products/n1.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -169,7 +169,7 @@
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
  
-             <div class="pro" id="product2">
+             <div class="pro" id="ssproduct2">
                  <img src="img/products/n2.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -183,7 +183,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product3">
+             <div class="pro" id="ssproduct3">
                  <img src="img/products/n3.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -197,7 +197,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product4">
+             <div class="pro" id="ssproduct4">
                  <img src="img/products/n4.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -211,7 +211,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product5">
+             <div class="pro" id="ssproduct5">
                  <img src="img/products/n5.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -225,7 +225,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product6">
+             <div class="pro" id="ssproduct6">
                  <img src="img/products/n6.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -239,7 +239,7 @@
                  </div>
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
-             <div class="pro" id="product7">
+             <div class="pro" id="ssproduct7">
                  <img src="img/products/n7.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -254,7 +254,7 @@
                  <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
              </div>
  
-             <div class="pro" id="product8">
+             <div class="pro" id="ssproduct8">
                  <img src="img/products/n8.jpg" alt="">
                  <div class="des">
                      <span>adidas</span>
@@ -345,12 +345,14 @@
        </footer>
 
        <script>
-        for (var i = 1; i < 5; i++) {
-            var targetProduct = document.getElementById('product' + i);
+        for (var i = 1; i <= 5; i++) {
+            var targetProduct = document.getElementById('ssproduct' + i);
             targetProduct.onclick = function() {
-                window.location.href = 'sproduct.html';
+                window.location.href = 'sproduct2.html';
             };
         }
+
+        
     </script>
     
 

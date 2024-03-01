@@ -13,7 +13,7 @@
 
     <body>
        <section id="header">
-        <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+        <a href="#"><img src="img/logo.png" class="logo" id="weblogo" alt="logo"></a>
         <div>
             <ul id="nav-item">
                 <li ><a class="active" href="index.html">Home</a></li>
@@ -75,7 +75,7 @@
         <h2>Featured Products</h2>
         <p>Summer Collection New Modern Desgin</p>
         <div class="pro-conatiner">
-            <div class="pro" id="product1">
+            <div class="pro" id="homeproduct1">
                 <img src="img/products/f1.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -90,7 +90,7 @@
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
 
-            <div class="pro" id="product2">
+            <div class="pro" id="homeproduct2">
                 <img src="img/products/f2.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -104,7 +104,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="pro" id="product3">
+            <div class="pro" id="homeproduct3">
                 <img src="img/products/f3.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -118,7 +118,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="pro" id="product4">
+            <div class="pro" id="homeproduct4">
                 <img src="img/products/f4.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -132,7 +132,7 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
-            <div class="pro" id="product5">
+            <div class="pro" id="homeproduct5">
                 <img src="img/products/f5.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -421,8 +421,8 @@
       </footer>
 
       <script>
-    for (var i = 1; i < 5; i++) {
-        var targetProduct = document.getElementById('product' + i);
+    for (var i = 1; i < 6; i++) {
+        var targetProduct = document.getElementById('homeproduct' + i);
         targetProduct.onclick = function() {
             window.location.href = 'sproduct.html';
         };
