@@ -180,6 +180,10 @@ body {
   color: #088178;
 }
 
+#hero p span{ 
+  color: #ff2727;
+  font-weight: 600;
+}
 #feature{
   display: flex;
   align-items: center;
@@ -1047,6 +1051,10 @@ Shop product details page  */
   background-position:top 30% right 30% ;
   height: 70vh;
   padding: 0 80px;
+}
+p span{ 
+  color: #ff2727;
+  font-weight: 600;
 }
 
 #feature {
