@@ -1139,15 +1139,35 @@ Shop product details page  */
     padding: 10px 30px;
 }
   h1{
-    font-size: 38px;
+    font-size: 30px;
   }
   h2{
-    font-size: 32px;
+    font-size: 24px;
   }
+  h4{
+    font-size: 12px;
+  }
+  p{
+    font-size: 13px; 
+  }
+  p span{
+    font-size: 13px; 
+    color: #ff2727;
+    font-weight: 600;
+  }
+  #btn-shop {
+    padding: 0px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    width: 230px;
+    height: 49px;
+    display: inline-block;
+}
   #hero{
     padding: 0 20px;
-    background-position: 55%;
-  }  
+    background-position: 61%;
+     }  
   #feature .fe-box {
     width: 130px;
    padding: 0 0 15px 0;
